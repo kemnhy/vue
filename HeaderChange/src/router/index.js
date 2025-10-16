@@ -2,12 +2,14 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "@/views/Home.vue";
 import Reser from "@/views/Reser.vue";
 import Review from "@/views/Review.vue";
+import ProductDetail from "@/views/ProductDetail.vue";
 
 const routes = [
   { path: "/", component: Home, name: "Home" },
   { path: "/reser", component: Reser, name: "Reser" },
   { path: "/review", component: Review, name: "Review" },
   {path: "/ask", component: Review, name: "Ask"},
+  {path: "/product-detail/:id", component: ProductDetail, name: "ProductDetail"},
 ];
 
 const router = createRouter({
