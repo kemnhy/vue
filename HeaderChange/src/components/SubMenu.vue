@@ -7,6 +7,7 @@
         <li @click="goPage('/reser')">📅 예약하기</li>
         <li @click="goPage('/review')">📝 리뷰보기</li>
         <li @click="goPage('/ask')">📞 문의하기</li>
+        <li @click="goPage('/FAQ')">FAQ</li>
       </ul>
     </div>
   </div>
