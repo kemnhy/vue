@@ -2,7 +2,7 @@
   <div class="text-center">
     <!-- 오류 -->
     <div v-if="error" class="text-red-600">{{ error }}</div>
-    <div v-else-if="weather" class="flex flex-col items-center">
+    <div v-else-if="weather" class="dark:text-white flex flex-col items-center">
       <img :src="`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`" 
       :alt="weather.weather[0].description"
       class="w-12 h-12"/>  
